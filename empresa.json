@@ -1,0 +1,20 @@
+{
+  "Empresa": [
+    {
+      "id": 1,
+      "nome": "Azza Doce",
+      "endereco": "Rua Luis Gonzaga, 303",
+      "contato": "40216597",
+      "atividade": "Vendas",
+      "cnpj": "54879162304567"
+    },
+    {
+      "id": 2,
+      "nome": "Nestle",
+      "endereco": "Rua Centro, 402",
+      "contato": "40916478",
+      "atividade": "Vendas",
+      "cnpj": "54879635846251"
+    }
+  ]
+}

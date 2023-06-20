@@ -1,0 +1,40 @@
+<div class="container">
+    <h1> CADASTRO DE EMPRESA</h1>
+
+    <form [formGroup]="formGroupEmpresa">
+    <!-- Recebe as informações -->
+    <div class ="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Nome empresarial e fantasia</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="nome">
+      </div>
+
+    <div class="input-group mb-3">
+       <span class="input-group-text" id="inputGroup-sizing-default">Endereço</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="endereco">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Contato</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="contato">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Atividade econômica</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="atividade">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">CNPJ</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="cnpj">
+    </div>
+    </form>
+
+    <!-- Botões -->
+    <button type="button" class="btn btn-primary" (click)="save()">Cadastrar</button><br><br>
+    <button type="button" class="btn btn-danger">Remover</button>
+
+    <!-- Lista -->
+
+
+
+</div>
