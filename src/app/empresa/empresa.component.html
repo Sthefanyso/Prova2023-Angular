@@ -31,7 +31,6 @@
 
     <!-- Botões -->
     <button type="button" class="btn btn-primary" (click)="save()">Cadastrar</button><br><br>
-    <button type="button" class="btn btn-danger">Remover</button>
 
     <!-- Lista -->
     <table class="table">
@@ -53,6 +52,9 @@
             <td>{{empresa.contato}}</td>
             <td>{{empresa.atividade}}</td>
             <td>{{empresa.cnpj}}</td>
+            <td>
+                <button type="button" class="btn btn-danger" (click)="remove(empresa)">Remover</button>
+            </td>
           </tr>
         </tbody>
       </table>

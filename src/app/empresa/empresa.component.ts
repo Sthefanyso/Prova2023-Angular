@@ -44,4 +44,10 @@ export class EmpresaComponent {
     }); 
   }
 
+  remove(empresa: Empresa): void{
+    this.empresaService.remove(empresa).subscribe({
+      next: () => this.loadEmpresa()
+    });
+  }
+
 }
